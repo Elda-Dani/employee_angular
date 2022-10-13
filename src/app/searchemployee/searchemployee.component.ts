@@ -9,6 +9,16 @@ export class SearchemployeeComponent implements OnInit {
 
   constructor() { }
 
+employeeCode=""
+
+readValue=()=>{
+  let data={
+    "employeeCode":this.employeeCode
+  }
+  console.log(data)
+}
+
+
   ngOnInit(): void {
   }
 
